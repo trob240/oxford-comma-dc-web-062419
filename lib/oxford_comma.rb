@@ -10,11 +10,17 @@ elsif array.count > 2
 
 i = 0
 b = []
-while i <= (array.count - 1)
+while i < (array.count - 2)
 
 b.push(array[i])
+i += 1
+end
 
-  array.join(", ")
+  b.push("and #{array[(array.count - 1)]}")
+
+  b.join(", ")
+  
+  b
 
 
 
