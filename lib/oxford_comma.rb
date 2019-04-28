@@ -8,7 +8,11 @@ elsif array.count == 2
 
 elsif array.count > 2
 
- array.count 
+i = 0
+b = []
+while i <= (array.count - 1)
+
+b.push(array[i])
 
   array.join(", ")
 
